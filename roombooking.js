@@ -6,7 +6,7 @@ const bodyParser = require("body-parser")
 app.use(bodyParser.json())
 
 app.get("/",(req,res)=>{
-    res.write("select 1./createroom 2./bookroom")
+    res.write("<h1>select 1./createroom 2./bookroom</h1>")
 })
 
 let rooms = [];
